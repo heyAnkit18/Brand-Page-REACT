@@ -1,0 +1,106 @@
+/* Hero Section Styling */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    padding: 3rem 2rem;
+    border-radius: 15px;
+    color: white;
+    overflow: hidden;
+  }
+  
+  .hero-content {
+    max-width: 500px;
+  }
+  
+  .hero-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #fff;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .hero-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+    color: #f8f8f8;
+  }
+  
+  .hero-btn {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-btn .primary-btn,
+  .hero-btn .secondary-btn {
+    padding: 0.9rem 1.8rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .primary-btn {
+    background-color: #ff6f61;
+    color: white;
+    box-shadow: 0px 4px 15px rgba(255, 111, 97, 0.3);
+  }
+  
+  .primary-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 20px rgba(255, 111, 97, 0.5);
+  }
+  
+  .secondary-btn {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+  }
+  
+  .secondary-btn:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .shopping p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  
+  .brand-icons {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .brand-logo {
+    width: 40px;
+    transition: transform 0.3s;
+    filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.15));
+  }
+  
+  .brand-logo:hover {
+    transform: scale(1.1);
+  }
+  
+  .hero-image {
+    max-width: 450px;
+  }
+  
+  .main-image {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .main-image:hover {
+    transform: scale(1.05);
+  }
+  
